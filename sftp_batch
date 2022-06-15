@@ -1,0 +1,2 @@
+rclone delete apache:/home/twice/public_html --rmdirs
+rclone sync ./out apache:/home/twice/public_html
